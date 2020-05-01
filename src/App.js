@@ -30,11 +30,11 @@ function App() {
           <ApodContainer data={responseData}/>
           <div className="buttons_div">
             <div onClick={ () => {
-              setResponseData([])
+              /* setResponseData([]) */
               setDatePosition(datePosition - 1);}
             }>Previous</div>
             <div onClick={ () => {
-              setResponseData([])
+              /* setResponseData([]) */
               if (datePosition !== 0) {
                 setDatePosition(datePosition + 1);
               }

@@ -35,17 +35,8 @@ function App() {
             }>Previous</div>
             <div onClick={ () => {
               setResponseData([])
-              if (datePosition !== 0) {
-                setDatePosition(datePosition + 1);
-              } else {
-                alert(`Can't see into the future, sorry!`)
-              }
-            } 
-            }>
-              <Tooltip placement="bottom" isOpen={isTooltipOpen} target="tooltip" toggle={() => setIsTooltipOpen(!isTooltipOpen)}>
-                Don't click this if you're on today's picture
-              </Tooltip>
-              <span id="tooltip">Next</span></div>
+              setDatePosition(datePosition + 1);}
+            }>Next</div>
           </div>
           
         </div>

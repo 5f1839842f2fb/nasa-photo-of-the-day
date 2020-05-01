@@ -37,9 +37,6 @@ function App() {
               setResponseData([])
               if (datePosition !== 0) {
                 setDatePosition(datePosition + 1);
-              } else {
-                alert("Can't see into the future, sorry!");
-                return false;
               }
             }}>Next</div>
           </div>
